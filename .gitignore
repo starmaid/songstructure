@@ -1,0 +1,82 @@
+# dont check in the training data
+_data
+
+# i named the environment songstructure
+songstructure
+
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+*.org
+.project
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.coverage.*
+.idea/
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.py[ocd]
+*.so
+
+# Python files #
+################
+# setup.py working directory
+/build
+# sphinx build directory
+/_build
+# setup.py dist directory
+/dist
+/doc/build
+/doc/cdoc/build
+/MANIFEST
+# Egg metadata
+*.egg-info
+/.eggs
+# The shelf plugin uses this dir
+./.shelf
+# coverage reports
+.coverage
+# ipython files
+**/.ipynb_checkpoints
+__pycache__
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# Patches #
+###########
+*.patch
+*.diff
+
+# OS generated files #
+######################
+.DS_Store*
+.VolumeIcon.icns
+.fseventsd
+Icon?
+.gdb_history
+ehthumbs.db
+Thumbs.db
+
+# pytest-cov #
+##############
+/.cache
+*,cover
+htmlcov
