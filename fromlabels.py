@@ -54,7 +54,7 @@ def addSec(l, start, end, name):
     l.append(d)
 
 if lines[0][0] > label_radius:
-    addSec(0, lines[0][0], 'PRE-INTRO')
+    addSec(sections, 0, lines[0][0], 'PRE-INTRO')
 
 # for each song
 for line in lines:
